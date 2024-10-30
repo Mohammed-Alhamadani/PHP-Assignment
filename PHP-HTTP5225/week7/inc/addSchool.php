@@ -1,4 +1,8 @@
 <?php 
+
+
+
+
     if(isset($_POST['addSchool'])){
         $schoolName = $_POST['schoolName'];
         $schoolType = $_POST['schoolType'];

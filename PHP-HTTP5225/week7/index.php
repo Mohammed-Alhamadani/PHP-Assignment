@@ -1,3 +1,10 @@
+<?php
+
+include('inc/functions.php');
+secure();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +28,10 @@
             <div class="col-md-12">
                 <h1 class="display-2">Schools</h1>
             </div>
+            <br>
+            <?php
+            set_message('You successfully LogIn', 'success');
+            ?>
         </div>
         <div class="row">
         <?php 
